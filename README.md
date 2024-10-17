@@ -1,6 +1,6 @@
 # Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
-## Screenshot
+## Screenshots
 
 ![7Capture](https://github.com/user-attachments/assets/c53aeceb-c273-42e8-b937-363d2d39ccfb)
 ![6](https://github.com/user-attachments/assets/6534a9b8-ef76-496f-94c6-31bee62561f1)
