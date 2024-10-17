@@ -13,31 +13,25 @@
 1. **Install Dependencies**:
    ```bash
    pip install requests plotly pandas
-Add your OpenWeatherMap API Key in main.py:
+   
+2. **Add your OpenWeatherMap API Key in main.py**:
+      ```bash
+   API_KEY = 'your_api_key'
+      
+3. **Run the Application**:
+      ```bash
+   python main.py
 
-python
-Copy code
-API_KEY = 'your_api_key'
-Run the Application:
 
-bash
-Copy code
-python main.py
-Design Choices
-SQLite: Used for lightweight, embedded database storage.
-Plotly: Chosen for interactive, easy-to-use visualizations.
-Threshold Alerts: Customizable by users to trigger alerts based on weather conditions.
-Test Cases
-API Connection: Validate the connection to the OpenWeatherMap API and ensure data retrieval for all six cities.
-Temperature Conversion: Ensure correct conversion from Kelvin to Celsius and Fahrenheit based on user preference.
-Daily Summaries: Simulate multiple weather updates and verify that daily summaries (average, max, min temperatures, dominant weather) are calculated correctly.
-Alerting System: Set thresholds and validate that alerts are triggered correctly when conditions are breached.
-markdown
-Copy code
+## Design Choices
+1. **SQLite: Used for lightweight, embedded database storage**:
+2. **Plotly: Chosen for interactive, easy-to-use visualizations**:
+3. **Threshold Alerts: Customizable by users to trigger alerts based on weather conditions**:
 
-### Instructions:
-- Copy this entire block of text.
-- Paste it into your `README.md` file on GitHub.
-- Check the **Preview** tab to ensure the formatting looks correct.
 
-This prompt includes all sections properly formatted with code blocks, bullet points, an
+## Test Cases
+1. **API Connection: Validate the connection to the OpenWeatherMap API and ensure data retrieval for all six cities**:
+2. **Temperature Conversion: Ensure correct conversion from Kelvin to Celsius and Fahrenheit based on user preference**:
+3. **Daily Summaries: Simulate multiple weather updates and verify that daily summaries (average, max, min temperatures, dominant weather) are calculated correctly**:
+4. **Alerting System: Set thresholds and validate that alerts are triggered correctly when conditions are breached**:
+
