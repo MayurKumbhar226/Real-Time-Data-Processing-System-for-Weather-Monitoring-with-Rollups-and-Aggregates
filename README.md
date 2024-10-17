@@ -1,5 +1,11 @@
 # Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
+## Screenshot
+![1](https://github.com/user-attachments/assets/e007c77a-3900-47d9-9525-885b66aa99dc)
+s
+
+
+
 ## Key Features
 1. **Real-Time Data**: Fetch weather data for six Indian metros (Delhi, Mumbai, Chennai, Bangalore, Kolkata, Hyderabad) every 5 minutes.
 2. **Weather Parameters**: Includes temperature, feels-like, humidity, wind speed, and pressure.
@@ -34,4 +40,6 @@
 2. **Temperature Conversion: Ensure correct conversion from Kelvin to Celsius and Fahrenheit based on user preference**:
 3. **Daily Summaries: Simulate multiple weather updates and verify that daily summaries (average, max, min temperatures, dominant weather) are calculated correctly**:
 4. **Alerting System: Set thresholds and validate that alerts are triggered correctly when conditions are breached**:
+
+
 
